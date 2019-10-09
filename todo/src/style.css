@@ -3,24 +3,26 @@ body {
 }
 
 .todo-list {
-    position: absolute;
-    left: 25%;
-    top:10%;
+    background-color: #d6d2cd;
     border: 1px solid #efefef;
-    height: auto;
     box-shadow: 
         0 1px 1px rgba(0,0,0,0.15),
         0 10px 0 -5px #eee,
         0 10px 1px -4px rgba(0,0,0,0.15),
         0 20px 0 -10px #eee,
         0 20px 1px -9px rgba(0,0,0,0.15);
-    width: 50vw;
+    height: auto;
+    left: 30%;
+    position: absolute;
+    top:10%;
+    width: 40vw;
+    
+    
 }
 
 .todo-item {
-    
-    
     align-items: center;
+    background-color:#dcdcdc;
     border-bottom: 1px solid #cecece;
     color: #333333;
     display: flex;
@@ -36,6 +38,7 @@ body {
 
 input[type=checkbox] {
     margin-right: 10px;
+    margin-top: 65px;
     font-size: 30px;
 }
 
